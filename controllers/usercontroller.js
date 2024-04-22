@@ -60,8 +60,8 @@ exports.postAllQuestion=async(req,res)=>{
 
         //document for nre Response
         const newResponse = new Response({
-            userId:userId,
-            quizId:quizId,
+            user:userId,
+            quiz:quizId,
             responses
           });
 
@@ -94,7 +94,7 @@ exports.getFeedback = async (req, res) => {
 
         // If user response is not found
         if (!userResponse) {
-            return res.status(404).json({ message: 'User response not found' });
+            return res.status(404).json({ message: 'User not found' });
         }
 
         // Feedback 
