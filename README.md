@@ -8,7 +8,7 @@ An api for creating quiz, solve quiz, and get a feedback
 
 ## Installation
 
-Install Authentication Application with npm
+Install Application with npm
 
 1.First clone the Repository by pasting the command given below in the terminal.
 ```bash
@@ -16,7 +16,7 @@ Install Authentication Application with npm
 ```
  2.Set-up mongodb in pc 
 
- Install Authentication Application with docker
+ Install  Application with docker
  ```bash
  docker pull astitva3110/quizo
 ```
