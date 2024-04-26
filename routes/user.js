@@ -23,7 +23,7 @@ router.post('/:quiz_id/getQ',verify,usercontroller.postAllQuestion);
 
 
 //get request to get the feedback
-router.get('/feedback/:response_id',setFeedback, fetch,usercontroller.getFeedback)
+router.get('/feedback/:response_id',[setFeedback,fetch],usercontroller.getFeedback)
 
 
 module.exports=router;
