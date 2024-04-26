@@ -16,6 +16,13 @@ Install Authentication Application with npm
 ```
  2.Set-up mongodb in pc 
 
+ Install Authentication Application with docker
+ ```bash
+ docker pull astitva3110/quizo
+```
+ ```bash
+ docker run -d -p 8080:8080 astitva3110/quizo
+```
 ## Running Tests
 
 1.Register (POST)
